@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisiónNova</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="encabezado">
+  <a href="#" class="logo">
+    <img src="imagenes/lentes.png" alt="Logo VisionNova">
+  </a>
+  <a href="#" class="miradaslogo">
+    <img src="imagenes/miradas.png" alt="Mirada Icono">
+  </a>
+</div>
+<main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button class="infobutton1" onclick="mostrarInfo(1)">Contáctanos</button>
+
+  <button class="infobutton2" onclick="mostrarInfo(2)">Descubre como funciona VisiónNova</button>
+  <button class="sabermas" onclick="window.location.href='mas-informacion.html'">Saber más</button>
+
+    <div id="contenedor-info" class="contenedor-oculto">
+  <div id="info1" class="info">55 3350 2476. 📞</div>
+  <div id="info2" class="info">En VisiónNova diseñamos unos lentes inteligentes equipados con IA, que busca ayudar a las personas con discapacidad visual y personas de la tercera edad, permitiéndoles interactuar con su entorno de manera más independiente y segura.</div>
+</div>
+  </main>
+  <header>
+    <div class="botoneraprincipal">
+    <button class="modoprincipal">🌙 Cambiar Modo</button>
+    <button class="voz" onclick="leerTexto()">🔊 Leer contenido</button>
+    </div>
+    <div class="redes-sociales">
+<a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+  <a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+  <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+  </header>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
