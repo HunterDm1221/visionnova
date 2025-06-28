@@ -255,7 +255,7 @@ text-decoration: none;
 }
 .logo1 img {
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 350px;
   z-index: 999;
   width: 220px;
@@ -263,7 +263,7 @@ text-decoration: none;
 
 .visionlogo img {
   position: absolute;
-  top: -30px;
+  top: 5px;
   left: 950px;
   z-index: 999;
   width: 350px;
