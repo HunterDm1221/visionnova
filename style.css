@@ -246,7 +246,15 @@ text-decoration: none;
   width: 500px;
   animation: fadeInUp 1s ease-in-out;
 }
-/*Masinfologos*/
+
+ /*.encabezado1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  animation: fadeInUp 1s ease-in-out;
+}     si no es error volverlo a habilitar para los logos div*/
 .contenedorLogos {
   height: 30px;
   width: 100px;
@@ -255,7 +263,7 @@ text-decoration: none;
 }
 .logo1 img {
   position: absolute;
-  top: 5px;
+  top: 35px;
   left: 350px;
   z-index: 999;
   width: 220px;
@@ -263,7 +271,7 @@ text-decoration: none;
 
 .visionlogo img {
   position: absolute;
-  top: 5px;
+  top: -50px;
   left: 950px;
   z-index: 999;
   width: 350px;
