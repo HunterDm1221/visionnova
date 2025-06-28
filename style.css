@@ -246,30 +246,27 @@ text-decoration: none;
   width: 500px;
   animation: fadeInUp 1s ease-in-out;
 }
-
- /*.encabezado1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 1rem;
+/*Masinfologos*/
+contenedorLogos {
+  height: 30px;
+  width: 100px;
+  position: relative;
   animation: fadeInUp 1s ease-in-out;
-}     si no es error volverlo a habilitar para los logos div*/
-
+}
 .logo1 img {
-  position: fixed;
-  top: 5px;
-  left: 380px;
+  position: absolute;
+  top: 35px;
+  left: 350px;
   z-index: 999;
   width: 220px;
 }
 
 .visionlogo img {
-  position: fixed;
-  top: -150px;
-  right: 125px;
+  position: absolute;
+  top: -50px;
+  left: 950px;
   z-index: 999;
-  width: 500px;
+  width: 350px;
 }
 
 /*botonera principal*/
