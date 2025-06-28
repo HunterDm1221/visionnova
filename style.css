@@ -247,7 +247,7 @@ text-decoration: none;
   animation: fadeInUp 1s ease-in-out;
 }
 /*Masinfologos*/
-contenedorLogos {
+.contenedorLogos {
   height: 30px;
   width: 100px;
   position: relative;
